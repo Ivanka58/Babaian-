@@ -1,1 +1,15 @@
-node-telegram-bot-api:npm install node-telegram-bot-api
+{
+  "name": "Babanini_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot for InvaCoin",
+  "main": "Babaian.js",
+  "scripts": {
+    "start": "node invacoin_bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.64.0", 
+    "node-schedule": "^2.1.1"
+  },
+  "author": "Ivanka58",
+  "license": "MIT"
+}
